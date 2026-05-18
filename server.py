@@ -2,7 +2,7 @@
 """File Converter MCP — Convert between CSV, JSON, XML, YAML, Markdown, and HTML."""
 
 import json, csv, io, re, xml.etree.ElementTree as ET
-from mcp.server import Server, stdio_server
+from mcp.server.lowlevel import Server, stdio_server
 
 server = Server("file-converter-mcp")
 
